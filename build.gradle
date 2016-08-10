@@ -1,0 +1,19 @@
+group 'com.ribbonmix'
+version '1.0'
+
+apply plugin: 'java'
+apply plugin: 'war'
+
+
+sourceCompatibility = 1.7
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+}
+
+
+dependencies {
+    compile "com.ribbonmix:core:1.0"
+    compile "org.springframework:spring-webmvc:4.3.2.RELEASE"
+}
