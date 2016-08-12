@@ -13,6 +13,6 @@
 <body>
 
 Hello World!!
-${test}
+${test.country.name}
 </body>
 </html>

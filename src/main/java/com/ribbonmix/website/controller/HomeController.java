@@ -1,5 +1,6 @@
 package com.ribbonmix.website.controller;
 
+import com.ribbonmix.core.entity.CityEntity;
 import com.ribbonmix.core.service.GeneralService;
 import com.ribbonmix.website.resource.View;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,7 +21,10 @@ public class HomeController {
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String viewHome(Model model) {
 
-        model.addAttribute("test", generalService.getCountryByIso2("JO"));
+        CityEntity city = generalService.getCityByShortName("amman");
+
+        System.out.println(">>>");
+        model.addAttribute("test", city);
 
         return View.HOME;
     }

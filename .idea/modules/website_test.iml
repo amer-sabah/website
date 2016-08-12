@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module external.linked.project.id="website:test" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.group="com.ribbonmix" external.system.module.type="sourceSet" external.system.module.version="1.0" type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7" inherit-compiler-output="false">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="false">
     <output-test url="file://$MODULE_DIR$/../../build/classes/test" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../src/test">
@@ -15,6 +15,7 @@
     <orderEntry type="library" name="Gradle: org.springframework.data:spring-data-jpa:1.10.2.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.hibernate:hibernate-entitymanager:5.1.0.Final" level="project" />
     <orderEntry type="library" name="Gradle: mysql:mysql-connector-java:5.1.38" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.commons:commons-lang3:3.0" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-aop:4.3.2.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-beans:4.3.2.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-context:4.3.2.RELEASE" level="project" />
