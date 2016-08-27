@@ -8,12 +8,12 @@ apply plugin: 'war'
 sourceCompatibility = 1.8
 
 repositories {
-    mavenCentral()
     mavenLocal()
+    mavenCentral()
 }
 
 
 dependencies {
-    compile "com.ribbonmix:core:1.0"
+    compile "com.ribbonmix:core:1.2"
     compile "org.springframework:spring-webmvc:4.3.2.RELEASE"
 }
